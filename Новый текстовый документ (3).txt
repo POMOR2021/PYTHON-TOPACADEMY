@@ -1,0 +1,19 @@
+#Задание 1
+a = int(input("Введите число 1: "))
+b = int(input("Введите число 2: "))
+c = int(input("Введите число 3: "))
+print("Сумма чисел", a + b +c)
+print("Произведение чисел", a * b * c)
+#Задание  2
+a = int(input("Введите зп за месяц: "))
+b = int(input("Введите сумму платежа за кредит: "))
+c = int(input("Введите задолженности за коммунальные выплаты: "))
+print("Сколько денег останется:", a - (b + c))
+#Задание 3
+a = int(input("Введите 1 диагональ: "))
+b = int(input("Введите 2 диагональ: "))
+print("Площадь равна: ", 0.5 * a * b)
+#Задание 4
+print("To be\nor not\nto be")
+#Задание 5
+print("Life is what happens\n\twhen\n\t\tyou`re busy making other plans\n\t\t\t\t\t\t\t\t\tJohn Lennon")
