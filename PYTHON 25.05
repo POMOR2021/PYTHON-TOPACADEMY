@@ -1,0 +1,29 @@
+#Задание 1
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
+c = int(input('Enter 3d number: '))
+d = int(input('Select an action: 1)Сумма\n\t\t  2)Произведение '))
+if d  ==  1:
+    print(a + b + c)
+elif d == 2:
+    print(a * b * c)
+#Задание 2
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
+c = int(input('Enter 3d number: '))
+d = int(input('Select an action: 1)Максимум\n\t\t  2)Минимум\n\t\t  3)Среднее арифметическое '))
+if d == 1:
+    print(max(a,b,c))
+elif d == 2:
+    print(min(a,b,c))
+elif d == 3:
+    print((a+b+c)/3)
+#Задание 3
+a = int(input('Enter 1st number: '))
+d = int(input('Select an action: 1)Мили\n\t\t  2)Дюймы\n\t\t  3)Ярды '))
+if d == 1:
+    print(a/1600)
+elif d == 2:
+    print(a * 39.37)
+elif d == 3:
+    print(a / 0.9144)
