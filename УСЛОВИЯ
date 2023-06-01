@@ -1,0 +1,60 @@
+#Задача 1
+
+
+a = int(input('Enter 1st number: '))
+
+if 0 < a < 100:
+    print("Переходим к подсчитыванию кратности")
+else:
+    print("Ошибка, число не входит в диапозон")
+    
+    
+if a//3:
+    print("Fizz")
+else:
+    print("Число не кратное")
+    
+    
+if a//5:
+    print("Bazz")
+else:
+    print("Число не кратное")
+    
+    
+if a//3 and a//5:
+    print("Число делится на что-то без остатка")
+else:
+    print(a)
+#Задача 2
+
+
+a = int(input('Enter 1st number: '))
+b = int(input('Выберите'))
+if b == 1:
+    print("Возводим в 0 степень",a**0)
+elif b == 2:
+    print("Возводим в 1 степень", a**1)
+elif b == 3:
+    print("Возводим во 2 степень", a**2)
+elif b == 4:
+    print("Возводим в 3 степень", a**3)
+elif b == 5:
+    print("Возводим в 4 степень", a**4)
+elif b == 6:
+    print("Возводим в 5 степень", a**5)
+elif b == 7:
+    print("Возводим в 6 степень", a**6)
+elif b == 8:
+    print("Возводим в 7 степень", a**7)
+    
+#Задача 3
+a = float(input('Enter 1st number: '))
+print("1)Megafon -> Tele2\n2)Tele2 -> Megafon")
+b = int(input('Выберите оператора'))
+if b == 1:
+    print("Стоимость звонка с Megafon на Tele2 будет стоить:", a * 2.31)
+elif b == 2:
+    print("Стоимость звонка с Tele2 на Megafon будет стоить:", a * 3.62)
+    
+    
+#Задача 4
