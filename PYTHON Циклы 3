@@ -1,0 +1,43 @@
+#Задание 1
+a=int(input("Введите число:"))
+b=int(input("Введите число:"))
+sum=0
+sum2=0
+sum3=0
+for i in range(a,b+1):
+    if i%2!=0:
+        sum+=i
+        print("Сумма нечетных: ",sum)
+    if i%2==0:
+        sum2+=i
+        print("Сумма четных: ",sum2)
+    if i%9==0:
+        sum3+=i
+        print("Сумма кратных на 9: ",sum3)
+#Задание 2
+a= int(input("Введите число:"))
+b=input("Введите число:")
+for i in range(a-1):
+    print(b)
+#Задание 3
+while True:
+    a=int(input("Введите число:"))
+    if a > 0:
+        print("Number is positive")
+    if a < 0:
+        print("Number is negative")
+    elif a == 0:
+         print("Number is equal to zero")   
+    if a == 7:
+        print("Good-bye")
+        break
+ #Задание 4
+ Array = []
+while True:
+   a = int(input("Введите число:"))
+   Array.append(a)
+   if a == 7:
+       print('Сумма введённых чисел:', sum(Array))
+       print('Максимальное число:', max(Array))
+       print('Минимальное число:', min(Array))
+       break
