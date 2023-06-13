@@ -16,4 +16,12 @@ for i in range(100,9999):
     if str(i)[0] != str(i)[1] or str(i)[1] != str(i)[2] or str(i)[0] != str(i)[0]:
         print(i)
 #Задание 4
-
+a = int(input("Введите число: "))
+b = len(str(a))
+i = 0
+c = " "
+while i < b:
+if str(a)[i] != str(3) and str(a)[i] != str(6):
+c += str(a)[i]
+i += 1
+print(c)
