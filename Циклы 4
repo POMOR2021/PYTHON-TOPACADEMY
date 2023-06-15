@@ -9,15 +9,18 @@ for i in range(a,b+1):
     if i%2!=0 and i%3!=0:
         print(i)
 #Задание 2
+k = ''
 for i in range(1,11):
     for j in range(1,11):
-        print(i,'*', j, '=', i*j)
-        print('...........')
+        k += str(i) + '*' + str(j) + '=' + str(i*j) + '\t'
+    k += '\n'
+print(k)
 #Задание 3
 a = int(input("Введите 1 число диапозона"))
 b = int(input("Введите 2 число диапозона"))
+k = ''
 for i in range(a,b+1):
     for j in range(a,b+1):
-        print(i,'*', j, '=', i*j)
-        print('...........')
-        
+        k += str(i) + '*' + str(j) + '=' + str(i*j) + '\t'
+    k += '\n'
+print(k)
