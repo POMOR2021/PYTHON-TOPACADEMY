@@ -1,0 +1,28 @@
+#Задание 1
+str = input("Введите арифметическое выражение")
+result = eval(str)
+print(result)
+#Задание 2
+import random
+
+l = [random.randint(-100,100) for i in range(10)]
+
+print(l)
+print(max(l))
+print(min(l))
+
+ot_num = 0 
+pol_num = 0 
+kol_zero = 0 
+
+for i in l:
+    if i < 0:
+        ot_num+= 1
+    if i > 0:
+        pol_num+= 1
+    if i == 0:
+        kol_zero+= 1
+        
+print(ot_num)
+print(pol_num)
+print(kol_zero)
