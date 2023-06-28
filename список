@@ -1,0 +1,15 @@
+import random
+a = [random.randint(-10,10) for x in range(10)]
+b = [random.randint(-10,10) for x in range(10)]
+print(a, 'первый список')
+print(b, 'второй списокn')
+c = a+b
+print(c)
+d = sorted(set(c1), key=c1.index)
+print(d)
+e = [a[i] for i in range(len(a)) if a[i] in b]
+print(e)
+f = sorted(list(set(a)) + list(set(b)), key=c1.index)
+print(f)
+g = [min(c1), max(c1)]
+print(g) 
