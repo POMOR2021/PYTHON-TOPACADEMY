@@ -1,0 +1,39 @@
+import random
+
+l1 = []
+l2 = []
+lobsh = []
+lbezpv = []
+lobshchis = []
+lunik = []
+lminmax = []
+
+lenght = random.randint(10, 20)
+ 
+for i in range(lenght):
+    e1 = random.randint(-10,50)
+    l1.append(e1)
+    e2 = random.randint(-10,50)
+    l2.append(e2)
+    if e1 == e2:
+        lobshchis.append(e1, e2)
+        lbezpv.append(e1)
+    if e1 != e2:
+        lunik.append(e1)
+    if e2 != e1:
+        lunik.append(e2)
+
+lobsh.append(l1)
+lobsh.append(l2)
+lminmax.append(min(l1))
+lminmax.append(min(l2))
+lminmax.append(max(l1))
+lminmax.append(max(l2))
+ 
+print("Первый список",l1)
+print("Второй список",l2)
+print("Общий список", lobsh)
+print("Список с одинаковыми числами без повторения", lbezpv)
+print("Список с общими числами", lobshchis)
+print("Список с уникальными числами",lunik)
+print("Минимальные и максимальные значения списков", lminmax)
